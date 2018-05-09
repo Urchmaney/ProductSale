@@ -1,0 +1,12 @@
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\bin\Debug\netcoreapp2.0\BuySchoolMaterial.deps.json
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\bin\Debug\netcoreapp2.0\BuySchoolMaterial.runtimeconfig.json
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\bin\Debug\netcoreapp2.0\BuySchoolMaterial.runtimeconfig.dev.json
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\bin\Debug\netcoreapp2.0\BuySchoolMaterial.dll
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\bin\Debug\netcoreapp2.0\BuySchoolMaterial.pdb
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\obj\Debug\netcoreapp2.0\BuySchoolMaterial.csprojResolveAssemblyReference.cache
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\obj\Debug\netcoreapp2.0\BuySchoolMaterial.csproj.CoreCompileInputs.cache
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\obj\Debug\netcoreapp2.0\BuySchoolMaterial.AssemblyInfoInputs.cache
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\obj\Debug\netcoreapp2.0\BuySchoolMaterial.AssemblyInfo.cs
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\obj\Debug\netcoreapp2.0\BuySchoolMaterial.dll
+c:\users\lucius\documents\visual studio 2017\Projects\BuySchoolMaterial\BuySchoolMaterial\obj\Debug\netcoreapp2.0\BuySchoolMaterial.pdb

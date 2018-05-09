@@ -1,0 +1,47 @@
+@using Microsoft.AspNetCore.Identity
+@using BuySchoolMaterial.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="navbar-right">
+            <ul class="nav navbar-nav navbar-right">
+
+              
+
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle" aria-hidden="true"></i><span class="caret"></span>Hello @UserManager.GetUserName(User)!</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                            <li><a href="profile-2.html"></a></li>
+                            <li><a href="archives.html">Archive</a></li>
+                            <li><a href="active-ads.html">Archive Ad</a></li>
+                            <li><a href="pending-ads.html">Pending Ads</a></li>
+                            <li><a href="favourite.html">Favorite</a></li>
+                            <li><a href="messages.html">Messages</a></li>
+                            <li><a href="deactive.html">Deactivate Account</a></li>
+                        </ul>
+                    </li>
+                    @*<li>
+            <a asp-area="" asp-controller="Manage" asp-action="Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
+        </li>
+        <li>
+            <button type="submit" class="btn btn-link navbar-btn navbar-link">Log out</button>
+        </li>*@
+               
+            </ul>
+        </form>
+    }
+    else
+    {
+        <ul class="nav navbar-nav navbar-right">
+            <li><a asp-area="" asp-controller="Account" asp-action="Register"><i class="fa fa-unlock" aria-hidden="true"></i>Register</a></li>
+            <li><a asp-area="" asp-controller="Account" asp-action="Login"><i class="fa fa-sign-in"></i>Log in</a></li>
+        </ul>
+    }
